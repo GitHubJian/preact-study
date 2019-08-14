@@ -1,0 +1,48 @@
+{
+  "name": "preact-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack:dll": "webpack-cli --config webpack/webpack.dll.config.js",
+    "webpack:build": "webpack-cli --config webpack/webpack.config.js",
+    "webpack": "npm run webpack:dll && npm run webpack:build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitHubJian/preact-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitHubJian/preact-study/issues"
+  },
+  "homepage": "https://github.com/GitHubJian/preact-study#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
+    "@babel/preset-env": "^7.5.5",
+    "assets-webpack-plugin": "^3.9.10",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "fs-extra": "^8.1.0",
+    "glob": "^7.1.4",
+    "koa-webpack-middleware": "^1.0.7",
+    "mini-css-extract-plugin": "^0.8.0",
+    "nunjucks": "^3.2.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "webpack": "^4.39.2",
+    "webpack-dev-middleware": "^3.7.0",
+    "webpack-parallel-uglify-plugin": "^1.1.2"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "compression": "^1.7.4",
+    "html-webpack-plugin": "^3.2.0",
+    "koa-compress": "^3.0.0",
+    "preact": "^10.0.0-rc.1"
+  }
+}

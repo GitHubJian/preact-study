@@ -1,0 +1,1 @@
+{"name":"__vendor_cb77ac8f9044520c3f39__","content":{"./node_modules/preact/dist/preact.module.js":{"id":1,"buildMeta":{"exportsType":"namespace","providedExports":["render","hydrate","createElement","h","Fragment","createRef","Component","cloneElement","createContext","toChildArray","_unmount","options"]}}}}
